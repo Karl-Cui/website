@@ -1,0 +1,17 @@
+.title {
+    color: DimGray;
+    font-size: 40px;
+}
+
+div {
+    font-family: "Verdana";
+}
+
+a {
+    font-size: 20px;
+    color: RoyalBlue;
+}
+
+td {
+    text-align: center;
+}
