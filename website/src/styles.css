@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+.title {
+    color: DimGray;
+    font-size: 40px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+body#bkg {
+    background-image: url('assets/backgrounds/phantagrande.jpg');
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: lighten;
+}
+
+div {
+    font-family: "Verdana";
+}
+
+a {
+    color: RoyalBlue;
+}
