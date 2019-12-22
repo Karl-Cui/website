@@ -5,6 +5,11 @@
     font-size: 40px;
 }
 
+.subtitle {
+    color: DimGray;
+    font-size: 24px;
+}
+
 html {
     height: 100%;
 }
