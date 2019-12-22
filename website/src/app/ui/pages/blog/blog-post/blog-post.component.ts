@@ -1,6 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
-import { Post } from '../blog/post';
+import { Post } from '../post';
+import { POSTS } from '../post-content';
 
 @Component({
   selector: 'app-blog-post',
@@ -9,9 +11,9 @@ import { Post } from '../blog/post';
 })
 export class BlogPostComponent implements OnInit {
 
-  @Input() post: Post;
+  post: Post;
 
-  constructor() {
+  constructor(private router: Router) {
   }
 
   ngOnInit() {
