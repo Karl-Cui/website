@@ -5,7 +5,11 @@
     <div *ngFor="let post of posts" click="OnSelect(post)">
 
         <div>
-          <h2 class="subtitle"><a routerLink="post">{{post.title}}</a></h2>
+          <h2 class="subtitle">
+            <a routerLink="{{post.id}}">
+              {{post.title}}
+            </a>
+          </h2>
           <p>{{post.description}}</p>
           <p>{{post.date}}</p>
         </div>
